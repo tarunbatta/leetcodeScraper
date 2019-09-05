@@ -39,9 +39,8 @@
 
     const getProblems = async () => {
         const metadata = await helper.readFile(config.metadataFilePath);
-        const metadataProblems = JSON.parse(metadata);
 
-        if (metadata.length == 0) {
+        if (metadata == null || metadata.length == 0 || config.isRefetchMetadata) {
             await page.goto(config.problemsUrl, config.pageNavigationOptions);
             await page.waitFor(config.timeout);
 
@@ -69,8 +68,10 @@
             );
 
             config.writeFile(config.metadataFilePath, JSON.stringify(problems));
+            console.log('Metadata written to file');
         } else {
-            problems = metadataProblems;
+            problems = JSON.parse(metadata);
+            console.log('Metadata loaded from file');
         }
 
         for (let i = 0; i < problems.length; i++) {
@@ -81,6 +82,8 @@
                 config.writeFile(filePath, JSON.stringify(problems[i]));
             }
         }
+
+        console.log('Json files craetes for problems');
     };
 
     const scrapeData = async () => {
@@ -94,10 +97,9 @@
             if (isFilePresent) {
                 const fileData = await helper.readFile(filePath);
                 problem = JSON.parse(fileData);
-                await helper.deleteFile(filePath);
             }
 
-            if (problem.question == '') {
+            if (problem.question == null || problem.question == '' || config.isRefetchProblems) {
                 await page.goto(problem.url, config.pageNavigationOptions);
 
                 const bodyHTML = await page.evaluate(() => document.body.innerHTML);
@@ -122,10 +124,14 @@
                     problem.code += $(element).find('pre').text();
                 });
 
+                await helper.deleteFile(filePath);
+                await page.waitFor(config.timeout);
                 config.writeFile(filePath, JSON.stringify(problem));
                 await page.waitFor(config.timeout);
             }
         }
+
+        console.log('Json files craete for problems after parsing');
     };
 
     const generateCodeFiles = async () => {
@@ -171,6 +177,8 @@
                 config.writeFile(problemFilePath, problemFile);
             }
         }
+
+        console.log('Code files craete for problems from json');
     };
 
     init();

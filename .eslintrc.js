@@ -25,7 +25,7 @@ module.exports = {
     'max-len': 'off',
     'new-cap': 'off',
     'no-alert': 'warn',
-    'no-console': 'warn',
+    'no-console': 'off',
     'no-dupe-args': 'error',
     'no-eq-null': 'off',
     'no-fallthrough': 'error',
