@@ -6,11 +6,13 @@
     const timeout = 500;
 
     const config = {
-        problemsFolderPath: './problems/',
+        problemsFolderPath: './problems/json/',
+        codeFolderPath: './problems/cs/',
         metadataFilePath: './problems/_metadata.json',
         siteUrl: 'https://leetcode.com',
         problemsUrl: 'https://leetcode.com/problemset/all/',
         timeout: timeout,
+        selectedlanguage: 'lang-select-C#',
         pageNavigationOptions: {
             timeout: timeout * 10,
             waitUntil: ['load', 'domcontentloaded'],

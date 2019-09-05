@@ -1,4 +1,4 @@
-(function() {
+(function () {
     'use strict';
 
     const app = {};
@@ -16,7 +16,7 @@
 
     let problems = [];
 
-    const init = async() => {
+    const init = async () => {
         browser = await puppeteer.launch({
             headless: false,
             slowMo: 500,
@@ -32,41 +32,42 @@
         await page.waitFor(config.timeout);
         await scrapeData();
         await page.waitFor(config.timeout);
+        await generateCodeFiles();
 
         await browser.close();
     };
 
-    const getProblems = async() => {
-        await page.goto(config.problemsUrl, config.pageNavigationOptions);
-        await page.waitFor(config.timeout);
-
-        const option = (await page.$x(
-            '//select[@class="form-control"]/option[text() = "all"]'
-        ))[0];
-        const value = await (await option.getProperty('value')).jsonValue();
-        await page.select('select.form-control', value);
-        await page.waitFor(config.timeout);
-
-        const bodyHTML = await page.evaluate(() => document.body.innerHTML);
-        const $ = cheerio.load(bodyHTML);
-
-        $('div.question-list-table > table > tbody.reactable-data > tr').each(
-            (i, element) => {
-                problems.push({
-                    number: $(element).find('td:nth-child(2)').text(),
-                    title: $(element).find('td:nth-child(3) > div > a').text(),
-                    url: config.siteUrl + $(element).find('td:nth-child(3) > div > a').attr('href'),
-                    difficulty: $(element).find('td:nth-child(6) > span').text(),
-                    question: '',
-                    code: '',
-                });
-            }
-        );
-
+    const getProblems = async () => {
         const metadata = await helper.readFile(config.metadataFilePath);
         const metadataProblems = JSON.parse(metadata);
 
-        if (metadata.length < problems.length) {
+        if (metadata.length == 0) {
+            await page.goto(config.problemsUrl, config.pageNavigationOptions);
+            await page.waitFor(config.timeout);
+
+            const option = (await page.$x(
+                '//select[@class="form-control"]/option[text() = "all"]'
+            ))[0];
+            const value = await (await option.getProperty('value')).jsonValue();
+            await page.select('select.form-control', value);
+            await page.waitFor(config.timeout);
+
+            const bodyHTML = await page.evaluate(() => document.body.innerHTML);
+            const $ = cheerio.load(bodyHTML);
+
+            $('div.question-list-table > table > tbody.reactable-data > tr').each(
+                (i, element) => {
+                    problems.push({
+                        number: $(element).find('td:nth-child(2)').text(),
+                        title: $(element).find('td:nth-child(3) > div > a').text(),
+                        url: config.siteUrl + $(element).find('td:nth-child(3) > div > a').attr('href'),
+                        difficulty: $(element).find('td:nth-child(6) > span').text(),
+                        question: '',
+                        code: '',
+                    });
+                }
+            );
+
             config.writeFile(config.metadataFilePath, JSON.stringify(problems));
         } else {
             problems = metadataProblems;
@@ -82,7 +83,7 @@
         }
     };
 
-    const scrapeData = async() => {
+    const scrapeData = async () => {
         let isLanguageSelected = false;
 
         for (let i = 0; i < problems.length; i++) {
@@ -101,12 +102,12 @@
 
                 const bodyHTML = await page.evaluate(() => document.body.innerHTML);
                 const $ = cheerio.load(bodyHTML);
-                await page.waitFor(config.timeout);
+                await page.waitFor(config.timeout * 2);
 
                 if (!isLanguageSelected) {
                     await page.click('div.ant-select-selection');
                     await page.waitFor(config.timeout);
-                    await page.click('li[data-cy="lang-select-C#"]');
+                    await page.click('li[data-cy="' + config.selectedlanguage + '"]');
                     await page.waitFor(config.timeout);
                     isLanguageSelected = true;
                 }
@@ -117,12 +118,57 @@
                     problem.question = problem.question.replace(/<[^>]+>/g, '');
                 }
 
-                $('div.CodeMirror-code div').each(function(index, element) {
+                $('div.CodeMirror-code div').each(function (index, element) {
                     problem.code += $(element).find('pre').text();
                 });
 
                 config.writeFile(filePath, JSON.stringify(problem));
                 await page.waitFor(config.timeout);
+            }
+        }
+    };
+
+    const generateCodeFiles = async () => {
+        await helper.deleteContentsOfFolder(config.codeFolderPath);
+
+        for (let i = 0; i < problems.length; i++) {
+            let problem = problems[i];
+            const filePath = config.problemsFolderPath + problems[i].number + '.json';
+            const isFilePresent = await config.isFilePresent(filePath);
+
+            if (isFilePresent) {
+                let problemFile = '';
+                const newLine = '\n';
+                const fileData = await helper.readFile(filePath);
+                problem = JSON.parse(fileData);
+
+                problemFile += '// Url:' + problem.url + newLine + newLine;
+                problemFile += '/*' + newLine;
+                problemFile += problem.number + '. ' + problem.title + newLine;
+                problemFile += problem.difficulty + newLine + newLine;
+
+                if (problem.question == null || problem.question.length == 0) {
+                    problemFile += '// {{ MISSING QUESTION }}' + newLine;
+                } else {
+                    problemFile += problem.question.trim() + newLine;
+                }
+
+                problemFile += '*/' + newLine + newLine;
+                problemFile += 'using System;' + newLine + newLine;
+                problemFile += 'namespace InterviewPreperationGuide.Core.LeetCode.Solution' + problem.number + newLine;
+                problemFile += '{' + newLine;
+
+                if (problem.code == null || problem.code.length == 0) {
+                    problemFile += '// {{ MISSING CODE }}' + newLine;
+                } else {
+                    problem.code = problem.code.startsWith('undefined') ? problem.code.substring(9, problem.code.length - 1) : problem.code;
+                    problemFile += problem.code.trim() + newLine;
+                }
+
+                problemFile += '}' + newLine;
+
+                const problemFilePath = config.codeFolderPath + problems[i].number + '.cs';
+                config.writeFile(problemFilePath, problemFile);
             }
         }
     };
