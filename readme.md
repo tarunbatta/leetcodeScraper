@@ -3,8 +3,12 @@ Scrapes Leetcode to extract all the problems and save them as a .cs file, so tha
 
 ## Setup
 
-*npm install
+* npm install
 
 ## Run
 
 * node index.js
+
+## Note
+
+* The scraper is neither complete nor perfect. Please share feedback and improvements. Or you are most welcomed to fork and customize the code.
