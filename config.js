@@ -1,21 +1,29 @@
-(function () {
+(function() {
     'use strict';
 
     const fs = require('fs');
 
+    const timeout = 500;
+
     const config = {
-        questionsFolderPath: './questions/',
+        problemsFolderPath: './problems/',
+        metadataFilePath: './problems/_metadata.json',
         siteUrl: 'https://leetcode.com',
         problemsUrl: 'https://leetcode.com/problemset/all/',
+        timeout: timeout,
+        pageNavigationOptions: {
+            timeout: timeout * 10,
+            waitUntil: ['load', 'domcontentloaded'],
+        },
     };
 
-    config.log = function (message) {
+    config.log = function(message) {
         const fileName = 'log.txt';
         message = this.getDate() + ' -> ' + message + '\n';
 
-        fs.exists(fileName, function (exists) {
+        fs.exists(fileName, function(exists) {
             if (exists) {
-                fs.appendFile(fileName, message, function (err) {
+                fs.appendFile(fileName, message, function(err) {
                     if (err) throw err;
                 });
             } else {
@@ -26,7 +34,7 @@
         });
     };
 
-    config.getDate = function () {
+    config.getDate = function() {
         const now = new Date();
         const year = '' + now.getFullYear();
         let month = '' + (now.getMonth() + 1);

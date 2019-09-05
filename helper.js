@@ -1,4 +1,4 @@
-(function () {
+(function() {
     'use strict';
 
     const helper = {};
@@ -6,7 +6,7 @@
     const path = require('path');
     const config = require('./config');
 
-    helper.deleteContentsOfFolder = async (directory) => {
+    helper.deleteContentsOfFolder = async(directory) => {
         fs.readdir(directory, (err, files) => {
             if (err) throw err;
 
@@ -18,9 +18,9 @@
         });
     };
 
-    helper.readFile = async (filePath) => {
+    helper.readFile = async(filePath) => {
         return new Promise((resolve, reject) => {
-            fs.readFile(filePath, 'utf8', function (err, data) {
+            fs.readFile(filePath, 'utf8', function(err, data) {
                 if (err) {
                     reject(err);
                 } else {
@@ -30,23 +30,35 @@
         });
     };
 
-    config.writeFile = function (fileName, data, isOverride) {
-        fs.exists(fileName, function (exists) {
+    config.writeFile = function(fileName, data) {
+        fs.exists(fileName, function(exists) {
             if (exists) {
-                if (isOverride) {
-                    fs.appendFile(fileName, data, function (err) {
-                        if (err) throw err;
-                    });
-                } else {
-                    fs.writeFile(fileName, data, (err) => {
-                        if (err) throw err;
-                    });
-                }
+                fs.appendFile(fileName, data, function(err) {
+                    if (err) throw err;
+                });
             } else {
                 fs.writeFile(fileName, data, (err) => {
                     if (err) throw err;
                 });
             }
+        });
+    };
+
+    helper.deleteFile = async(fileName) => {
+        fs.unlink(fileName, (err) => {
+            if (err) throw err;
+        });
+    };
+
+    config.isFilePresent = async(fileName) => {
+        return new Promise((resolve, reject) => {
+            fs.exists(fileName, function(exists) {
+                if (exists) {
+                    resolve(true);
+                } else {
+                    resolve(false);
+                }
+            });
         });
     };
 

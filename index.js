@@ -1,4 +1,4 @@
-(function () {
+(function() {
     'use strict';
 
     const app = {};
@@ -14,10 +14,9 @@
     let browser = null;
     let page = null;
 
-    const questions = [];
-    const timeout = 500;
+    let problems = [];
 
-    const init = async () => {
+    const init = async() => {
         browser = await puppeteer.launch({
             headless: false,
             slowMo: 500,
@@ -30,78 +29,102 @@
         });
 
         await getProblems();
-        await page.waitFor(timeout);
-        config.writeFile('questions.json', JSON.stringify(questions));
-        await page.waitFor(timeout);
-        await helper.deleteContentsOfFolder('./questions');
-        await page.waitFor(timeout);
+        await page.waitFor(config.timeout);
         await scrapeData();
-        await page.waitFor(timeout);
+        await page.waitFor(config.timeout);
 
         await browser.close();
     };
 
-    const scrapeData = async () => {
-        for (let i = 0; i < questions.length; i++) {
-            const question = questions[i];
+    const getProblems = async() => {
+        await page.goto(config.problemsUrl, config.pageNavigationOptions);
+        await page.waitFor(config.timeout);
 
-            await page.goto(question.url, {
-                waitUntil: ['load', 'domcontentloaded'],
-            });
-
-            await page.waitFor(timeout * 3);
-            const bodyHTML = await page.evaluate(() => document.body.innerHTML);
-            const $ = cheerio.load(bodyHTML);
-            await page.waitFor(timeout);
-
-            if (i == 0) {
-                await page.click('div.ant-select-selection');
-                await page.waitFor(timeout);
-                await page.click('li[data-cy="lang-select-C#"]');
-                await page.waitFor(timeout);
-            }
-
-            question.question = $('div.question-content__JfgR > div').html();
-
-            if (question.question != null && question.question.length > 0) {
-                question.question = question.question.replace(/<[^>]+>/g, '');
-            }
-
-            $('div.CodeMirror-code div').each(function (index, element) {
-                question.code += $(element).find('pre').text();
-            });
-
-            config.writeFile(config.questionsFolderPath + question.number + '.json', JSON.stringify(question));
-            await page.waitFor(timeout);
-        }
-    };
-
-    const getProblems = async () => {
-        await page.goto(config.problemsUrl, {
-            waitUntil: ['load', 'domcontentloaded'],
-        });
-
-        await page.waitFor(timeout);
         const option = (await page.$x(
-            '//select/option[text() = "all"]'
+            '//select[@class="form-control"]/option[text() = "all"]'
         ))[0];
         const value = await (await option.getProperty('value')).jsonValue();
         await page.select('select.form-control', value);
-        await page.waitFor(timeout);
+        await page.waitFor(config.timeout);
 
         const bodyHTML = await page.evaluate(() => document.body.innerHTML);
         const $ = cheerio.load(bodyHTML);
 
         $('div.question-list-table > table > tbody.reactable-data > tr').each(
             (i, element) => {
-                questions.push({
+                problems.push({
                     number: $(element).find('td:nth-child(2)').text(),
                     title: $(element).find('td:nth-child(3) > div > a').text(),
                     url: config.siteUrl + $(element).find('td:nth-child(3) > div > a').attr('href'),
                     difficulty: $(element).find('td:nth-child(6) > span').text(),
+                    question: '',
+                    code: '',
                 });
             }
         );
+
+        const metadata = await helper.readFile(config.metadataFilePath);
+        const metadataProblems = JSON.parse(metadata);
+
+        if (metadata.length < problems.length) {
+            config.writeFile(config.metadataFilePath, JSON.stringify(problems));
+        } else {
+            problems = metadataProblems;
+        }
+
+        for (let i = 0; i < problems.length; i++) {
+            const filePath = config.problemsFolderPath + problems[i].number + '.json';
+            const isFilePresent = await config.isFilePresent(filePath);
+
+            if (!isFilePresent) {
+                config.writeFile(filePath, JSON.stringify(problems[i]));
+            }
+        }
+    };
+
+    const scrapeData = async() => {
+        let isLanguageSelected = false;
+
+        for (let i = 0; i < problems.length; i++) {
+            let problem = problems[i];
+            const filePath = config.problemsFolderPath + problem.number + '.json';
+            const isFilePresent = await config.isFilePresent(filePath);
+
+            if (isFilePresent) {
+                const fileData = await helper.readFile(filePath);
+                problem = JSON.parse(fileData);
+                await helper.deleteFile(filePath);
+            }
+
+            if (problem.question == '') {
+                await page.goto(problem.url, config.pageNavigationOptions);
+
+                const bodyHTML = await page.evaluate(() => document.body.innerHTML);
+                const $ = cheerio.load(bodyHTML);
+                await page.waitFor(config.timeout);
+
+                if (!isLanguageSelected) {
+                    await page.click('div.ant-select-selection');
+                    await page.waitFor(config.timeout);
+                    await page.click('li[data-cy="lang-select-C#"]');
+                    await page.waitFor(config.timeout);
+                    isLanguageSelected = true;
+                }
+
+                problem.question = $('div.question-content__JfgR > div').html();
+
+                if (problem.question != null && problem.question.length > 0) {
+                    problem.question = problem.question.replace(/<[^>]+>/g, '');
+                }
+
+                $('div.CodeMirror-code div').each(function(index, element) {
+                    problem.code += $(element).find('pre').text();
+                });
+
+                config.writeFile(filePath, JSON.stringify(problem));
+                await page.waitFor(config.timeout);
+            }
+        }
     };
 
     init();
