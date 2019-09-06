@@ -18,5 +18,11 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution86
 {
-/** * Definition for singly-linked list. * public class ListNode { *     public int val; *     public ListNode next; *     public ListNode(int x) { val = x; } * } */public class Solution {    public ListNode Partition(ListNode head, int x) {            }
+    /** * Definition for singly-linked list. * public class ListNode { *     public int val; *     public ListNode next; *     public ListNode(int x) { val = x; } * } */
+    public class Solution
+    {
+        public void Init() { }
+
+        public ListNode Partition(ListNode head, int x) { }
+    }
 }

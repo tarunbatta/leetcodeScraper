@@ -34,5 +34,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution473
 {
-public class Solution {    public bool Makesquare(int[] nums) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool Makesquare(int[] nums) { }
+    }
 }

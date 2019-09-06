@@ -26,5 +26,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution714
 {
-public class Solution {    public int MaxProfit(int[] prices, int fee) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MaxProfit(int[] prices, int fee) { }
+    }
 }

@@ -43,5 +43,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1178
 {
-public class Solution {    public IList<int> FindNumOfValidWords(string[] words, string[] puzzles) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<int> FindNumOfValidWords(string[] words, string[] puzzles) { }
+    }
 }

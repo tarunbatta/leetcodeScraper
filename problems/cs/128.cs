@@ -19,5 +19,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution128
 {
-public class Solution {    public int LongestConsecutive(int[] nums) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int LongestConsecutive(int[] nums) { }
+    }
 }

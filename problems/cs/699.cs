@@ -55,5 +55,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution699
 {
-public class Solution {    public IList<int> FallingSquares(int[][] positions) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<int> FallingSquares(int[][] positions) { }
+    }
 }

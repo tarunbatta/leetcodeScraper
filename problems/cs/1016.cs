@@ -33,5 +33,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1016
 {
-public class Solution {    public bool QueryString(string S, int N) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool QueryString(string S, int N) { }
+    }
 }

@@ -52,5 +52,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution48
 {
-public class Solution {    public void Rotate(int[][] matrix) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public void Rotate(int[][] matrix) { }
+    }
 }

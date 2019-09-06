@@ -46,5 +46,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution969
 {
-public class Solution {    public IList<int> PancakeSort(int[] A) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<int> PancakeSort(int[] A) { }
+    }
 }

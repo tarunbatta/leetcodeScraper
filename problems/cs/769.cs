@@ -40,5 +40,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution769
 {
-public class Solution {    public int MaxChunksToSorted(int[] arr) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MaxChunksToSorted(int[] arr) { }
+    }
 }

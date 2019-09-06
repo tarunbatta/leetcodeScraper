@@ -29,5 +29,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution479
 {
-public class Solution {    public int LargestPalindrome(int n) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int LargestPalindrome(int n) { }
+    }
 }

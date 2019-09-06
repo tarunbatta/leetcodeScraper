@@ -34,5 +34,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution553
 {
-public class Solution {    public string OptimalDivision(int[] nums) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string OptimalDivision(int[] nums) { }
+    }
 }

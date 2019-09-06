@@ -24,5 +24,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution507
 {
-public class Solution {    public bool CheckPerfectNumber(int num) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool CheckPerfectNumber(int num) { }
+    }
 }

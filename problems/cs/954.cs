@@ -60,5 +60,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution954
 {
-public class Solution {    public bool CanReorderDoubled(int[] A) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool CanReorderDoubled(int[] A) { }
+    }
 }

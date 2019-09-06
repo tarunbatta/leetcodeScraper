@@ -51,5 +51,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution956
 {
-public class Solution {    public int TallestBillboard(int[] rods) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int TallestBillboard(int[] rods) { }
+    }
 }

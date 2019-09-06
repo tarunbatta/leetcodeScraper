@@ -34,5 +34,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution480
 {
-public class Solution {    public double[] MedianSlidingWindow(int[] nums, int k) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public double[] MedianSlidingWindow(int[] nums, int k) { }
+    }
 }

@@ -39,5 +39,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution949
 {
-public class Solution {    public string LargestTimeFromDigits(int[] A) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string LargestTimeFromDigits(int[] A) { }
+    }
 }

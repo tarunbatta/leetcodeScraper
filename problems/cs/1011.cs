@@ -62,5 +62,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1011
 {
-public class Solution {    public int ShipWithinDays(int[] weights, int D) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int ShipWithinDays(int[] weights, int D) { }
+    }
 }

@@ -30,5 +30,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution344
 {
-public class Solution {    public void ReverseString(char[] s) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public void ReverseString(char[] s) { }
+    }
 }

@@ -28,5 +28,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution30
 {
-public class Solution {    public IList<int> FindSubstring(string s, string[] words) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<int> FindSubstring(string s, string[] words) { }
+    }
 }

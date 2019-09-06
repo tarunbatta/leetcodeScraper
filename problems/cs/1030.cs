@@ -53,5 +53,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1030
 {
-public class Solution {    public int[][] AllCellsDistOrder(int R, int C, int r0, int c0) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[][] AllCellsDistOrder(int R, int C, int r0, int c0) { }
+    }
 }

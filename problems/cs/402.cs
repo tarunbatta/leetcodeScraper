@@ -39,5 +39,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution402
 {
-public class Solution {    public string RemoveKdigits(string num, int k) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string RemoveKdigits(string num, int k) { }
+    }
 }

@@ -31,5 +31,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution765
 {
-public class Solution {    public int MinSwapsCouples(int[] row) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MinSwapsCouples(int[] row) { }
+    }
 }

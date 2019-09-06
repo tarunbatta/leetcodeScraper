@@ -48,5 +48,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution961
 {
-public class Solution {    public int RepeatedNTimes(int[] A) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int RepeatedNTimes(int[] A) { }
+    }
 }

@@ -60,5 +60,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution989
 {
-public class Solution {    public IList<int> AddToArrayForm(int[] A, int K) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<int> AddToArrayForm(int[] A, int K) { }
+    }
 }

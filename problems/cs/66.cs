@@ -28,5 +28,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution66
 {
-public class Solution {    public int[] PlusOne(int[] digits) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] PlusOne(int[] digits) { }
+    }
 }

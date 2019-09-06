@@ -31,5 +31,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution423
 {
-public class Solution {    public string OriginalDigits(string s) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string OriginalDigits(string s) { }
+    }
 }

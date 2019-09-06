@@ -21,5 +21,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution31
 {
-public class Solution {    public void NextPermutation(int[] nums) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public void NextPermutation(int[] nums) { }
+    }
 }

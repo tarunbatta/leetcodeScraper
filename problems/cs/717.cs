@@ -35,5 +35,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution717
 {
-public class Solution {    public bool IsOneBitCharacter(int[] bits) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool IsOneBitCharacter(int[] bits) { }
+    }
 }

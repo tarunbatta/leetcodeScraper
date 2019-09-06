@@ -56,5 +56,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution999
 {
-public class Solution {    public int NumRookCaptures(char[][] board) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int NumRookCaptures(char[][] board) { }
+    }
 }

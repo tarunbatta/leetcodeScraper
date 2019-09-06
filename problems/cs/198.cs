@@ -27,5 +27,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution198
 {
-public class Solution {    public int Rob(int[] nums) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int Rob(int[] nums) { }
+    }
 }

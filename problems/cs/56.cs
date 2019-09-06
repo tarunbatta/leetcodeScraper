@@ -26,5 +26,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution56
 {
-public class Solution {    public int[][] Merge(int[][] intervals) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[][] Merge(int[][] intervals) { }
+    }
 }

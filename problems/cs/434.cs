@@ -17,5 +17,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution434
 {
-public class Solution {    public int CountSegments(string s) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int CountSegments(string s) { }
+    }
 }

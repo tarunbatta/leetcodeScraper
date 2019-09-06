@@ -36,5 +36,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution189
 {
-public class Solution {    public void Rotate(int[] nums, int k) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public void Rotate(int[] nums, int k) { }
+    }
 }

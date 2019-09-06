@@ -37,5 +37,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution757
 {
-public class Solution {    public int IntersectionSizeTwo(int[][] intervals) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int IntersectionSizeTwo(int[][] intervals) { }
+    }
 }

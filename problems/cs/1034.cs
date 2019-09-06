@@ -52,5 +52,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1034
 {
-public class Solution {    public int[][] ColorBorder(int[][] grid, int r0, int c0, int color) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[][] ColorBorder(int[][] grid, int r0, int c0, int color) { }
+    }
 }

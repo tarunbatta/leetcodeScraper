@@ -49,5 +49,16 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution926
 {
-public class Solution {    public int MinFlipsMonoIncr(string S) {            }
+    public class Solution
+    {
+        public void Init()
+        {
+
+        }
+
+        public int MinFlipsMonoIncr(string S)
+        {
+
+        }
+    }
 }

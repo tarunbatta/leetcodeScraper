@@ -38,5 +38,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution762
 {
-public class Solution {    public int CountPrimeSetBits(int L, int R) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int CountPrimeSetBits(int L, int R) { }
+    }
 }

@@ -28,5 +28,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution368
 {
-public class Solution {    public IList<int> LargestDivisibleSubset(int[] nums) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<int> LargestDivisibleSubset(int[] nums) { }
+    }
 }

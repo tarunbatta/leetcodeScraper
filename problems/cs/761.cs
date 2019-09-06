@@ -32,5 +32,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution761
 {
-public class Solution {    public string MakeLargestSpecial(string S) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string MakeLargestSpecial(string S) { }
+    }
 }

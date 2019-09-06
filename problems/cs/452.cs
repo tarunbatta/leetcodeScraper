@@ -27,5 +27,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution452
 {
-public class Solution {    public int FindMinArrowShots(int[][] points) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int FindMinArrowShots(int[][] points) { }
+    }
 }

@@ -33,5 +33,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution154
 {
-public class Solution {    public int FindMin(int[] nums) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int FindMin(int[] nums) { }
+    }
 }

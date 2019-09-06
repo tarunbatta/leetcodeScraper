@@ -27,5 +27,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution57
 {
-public class Solution {    public int[][] Insert(int[][] intervals, int[] newInterval) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[][] Insert(int[][] intervals, int[] newInterval) { }
+    }
 }

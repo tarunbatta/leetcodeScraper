@@ -21,5 +21,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution327
 {
-public class Solution {    public int CountRangeSum(int[] nums, int lower, int upper) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int CountRangeSum(int[] nums, int lower, int upper) { }
+    }
 }

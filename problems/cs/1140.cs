@@ -34,5 +34,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1140
 {
-public class Solution {    public int StoneGameII(int[] piles) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int StoneGameII(int[] piles) { }
+    }
 }

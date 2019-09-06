@@ -35,5 +35,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution743
 {
-public class Solution {    public int NetworkDelayTime(int[][] times, int N, int K) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int NetworkDelayTime(int[][] times, int N, int K) { }
+    }
 }

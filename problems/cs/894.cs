@@ -34,5 +34,11 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution894
 {
-/** * Definition for a binary tree node. * public class TreeNode { *     public int val; *     public TreeNode left; *     public TreeNode right; *     public TreeNode(int x) { val = x; } * } */public class Solution {    public IList<TreeNode> AllPossibleFBT(int N) {            }
+    /** * Definition for a binary tree node. * public class TreeNode { *     public int val; *     public TreeNode left; *     public TreeNode right; *     public TreeNode(int x) { val = x; } * } */
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<TreeNode> AllPossibleFBT(int N) { }
+    }
 }

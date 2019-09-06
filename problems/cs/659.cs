@@ -51,5 +51,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution659
 {
-public class Solution {    public bool IsPossible(int[] nums) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool IsPossible(int[] nums) { }
+    }
 }

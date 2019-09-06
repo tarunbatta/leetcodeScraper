@@ -20,5 +20,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1
 {
-    public class Solution { public int[] TwoSum(int[] nums, int target) { } }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] TwoSum(int[] nums, int target) { }
+    }
 }

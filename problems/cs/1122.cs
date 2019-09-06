@@ -27,5 +27,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1122
 {
-public class Solution {    public int[] RelativeSortArray(int[] arr1, int[] arr2) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] RelativeSortArray(int[] arr1, int[] arr2) { }
+    }
 }

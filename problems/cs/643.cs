@@ -29,5 +29,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution643
 {
-public class Solution {    public double FindMaxAverage(int[] nums, int k) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public double FindMaxAverage(int[] nums, int k) { }
+    }
 }

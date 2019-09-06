@@ -31,5 +31,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution28
 {
-public class Solution {    public int StrStr(string haystack, string needle) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int StrStr(string haystack, string needle) { }
+    }
 }

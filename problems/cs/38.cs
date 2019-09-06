@@ -39,5 +39,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution38
 {
-public class Solution {    public string CountAndSay(int n) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string CountAndSay(int n) { }
+    }
 }

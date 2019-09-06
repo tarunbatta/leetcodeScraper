@@ -50,5 +50,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution127
 {
-public class Solution {    public int LadderLength(string beginWord, string endWord, IList<string> wordList) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int LadderLength(string beginWord, string endWord, IList<string> wordList) { }
+    }
 }

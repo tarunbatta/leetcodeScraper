@@ -39,5 +39,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution986
 {
-public class Solution {    public int[][] IntervalIntersection(int[][] A, int[][] B) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[][] IntervalIntersection(int[][] A, int[][] B) { }
+    }
 }

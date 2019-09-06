@@ -59,5 +59,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1176
 {
-public class Solution {    public int DietPlanPerformance(int[] calories, int k, int lower, int upper) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int DietPlanPerformance(int[] calories, int k, int lower, int upper) { }
+    }
 }

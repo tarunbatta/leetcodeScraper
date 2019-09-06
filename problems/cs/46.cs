@@ -24,5 +24,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution46
 {
-public class Solution {    public IList<IList<int>> Permute(int[] nums) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<IList<int>> Permute(int[] nums) { }
+    }
 }

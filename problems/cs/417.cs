@@ -43,5 +43,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution417
 {
-public class Solution {    public IList<IList<int>> PacificAtlantic(int[][] matrix) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<IList<int>> PacificAtlantic(int[][] matrix) { }
+    }
 }

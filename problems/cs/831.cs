@@ -81,5 +81,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution831
 {
-public class Solution {    public string MaskPII(string S) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string MaskPII(string S) { }
+    }
 }

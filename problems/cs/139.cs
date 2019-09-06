@@ -38,5 +38,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution139
 {
-public class Solution {    public bool WordBreak(string s, IList<string> wordDict) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool WordBreak(string s, IList<string> wordDict) { }
+    }
 }

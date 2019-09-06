@@ -25,5 +25,11 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution398
 {
-public class Solution {​    public Solution(int[] nums) {            }        public int Pick(int target) {            }}​/** * Your Solution object will be instantiated and called as such: * Solution obj = new Solution(nums); * int param_1 = obj.Pick(target); *
+    public class Solution
+    {
+        public void Init() { }
+
+​    public Solution(int[] nums) { }
+        public int Pick(int target) { }
+    }​/** * Your Solution object will be instantiated and called as such: * Solution obj = new Solution(nums); * int param_1 = obj.Pick(target); *
 }

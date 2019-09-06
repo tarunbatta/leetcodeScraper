@@ -84,5 +84,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution391
 {
-public class Solution {    public bool IsRectangleCover(int[][] rectangles) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool IsRectangleCover(int[][] rectangles) { }
+    }
 }

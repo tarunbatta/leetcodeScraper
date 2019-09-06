@@ -51,5 +51,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution927
 {
-public class Solution {    public int[] ThreeEqualParts(int[] A) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] ThreeEqualParts(int[] A) { }
+    }
 }

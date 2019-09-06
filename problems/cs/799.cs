@@ -43,5 +43,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution799
 {
-public class Solution {    public double ChampagneTower(int poured, int query_row, int query_glass) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public double ChampagneTower(int poured, int query_row, int query_glass) { }
+    }
 }

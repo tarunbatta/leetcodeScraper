@@ -47,5 +47,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution446
 {
-public class Solution {    public int NumberOfArithmeticSlices(int[] A) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int NumberOfArithmeticSlices(int[] A) { }
+    }
 }

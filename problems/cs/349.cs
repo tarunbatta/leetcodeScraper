@@ -33,5 +33,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution349
 {
-public class Solution {    public int[] Intersection(int[] nums1, int[] nums2) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] Intersection(int[] nums1, int[] nums2) { }
+    }
 }

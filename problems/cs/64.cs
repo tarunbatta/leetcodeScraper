@@ -24,5 +24,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution64
 {
-public class Solution {    public int MinPathSum(int[][] grid) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MinPathSum(int[][] grid) { }
+    }
 }

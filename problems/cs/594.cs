@@ -24,5 +24,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution594
 {
-public class Solution {    public int FindLHS(int[] nums) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int FindLHS(int[] nums) { }
+    }
 }

@@ -21,5 +21,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution466
 {
-public class Solution {    public int GetMaxRepetitions(string s1, int n1, string s2, int n2) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int GetMaxRepetitions(string s1, int n1, string s2, int n2) { }
+    }
 }

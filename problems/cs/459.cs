@@ -32,5 +32,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution459
 {
-public class Solution {    public bool RepeatedSubstringPattern(string s) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool RepeatedSubstringPattern(string s) { }
+    }
 }

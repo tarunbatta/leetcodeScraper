@@ -37,5 +37,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution414
 {
-public class Solution {    public int ThirdMax(int[] nums) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int ThirdMax(int[] nums) { }
+    }
 }

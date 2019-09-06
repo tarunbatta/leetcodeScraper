@@ -48,5 +48,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution806
 {
-public class Solution {    public int[] NumberOfLines(int[] widths, string S) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] NumberOfLines(int[] widths, string S) { }
+    }
 }

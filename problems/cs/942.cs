@@ -49,5 +49,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution942
 {
-public class Solution {    public int[] DiStringMatch(string S) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] DiStringMatch(string S) { }
+    }
 }

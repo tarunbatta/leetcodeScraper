@@ -46,5 +46,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution509
 {
-public class Solution {    public int Fib(int N) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int Fib(int N) { }
+    }
 }

@@ -23,5 +23,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution506
 {
-public class Solution {    public string[] FindRelativeRanks(int[] nums) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string[] FindRelativeRanks(int[] nums) { }
+    }
 }

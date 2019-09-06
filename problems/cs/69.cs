@@ -28,5 +28,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution69
 {
-public class Solution {    public int MySqrt(int x) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MySqrt(int x) { }
+    }
 }

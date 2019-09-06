@@ -44,5 +44,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution811
 {
-public class Solution {    public IList<string> SubdomainVisits(string[] cpdomains) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<string> SubdomainVisits(string[] cpdomains) { }
+    }
 }

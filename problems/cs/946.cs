@@ -41,5 +41,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution946
 {
-public class Solution {    public bool ValidateStackSequences(int[] pushed, int[] popped) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool ValidateStackSequences(int[] pushed, int[] popped) { }
+    }
 }

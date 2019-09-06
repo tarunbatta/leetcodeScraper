@@ -28,5 +28,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution784
 {
-public class Solution {    public IList<string> LetterCasePermutation(string S) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<string> LetterCasePermutation(string S) { }
+    }
 }

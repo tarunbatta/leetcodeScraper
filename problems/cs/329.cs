@@ -36,5 +36,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution329
 {
-public class Solution {    public int LongestIncreasingPath(int[][] matrix) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int LongestIncreasingPath(int[][] matrix) { }
+    }
 }

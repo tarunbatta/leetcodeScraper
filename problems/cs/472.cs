@@ -28,5 +28,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution472
 {
-public class Solution {    public IList<string> FindAllConcatenatedWordsInADict(string[] words) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<string> FindAllConcatenatedWordsInADict(string[] words) { }
+    }
 }

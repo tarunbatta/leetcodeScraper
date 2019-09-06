@@ -28,5 +28,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution493
 {
-public class Solution {    public int ReversePairs(int[] nums) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int ReversePairs(int[] nums) { }
+    }
 }

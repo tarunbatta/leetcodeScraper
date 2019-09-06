@@ -60,5 +60,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution869
 {
-public class Solution {    public bool ReorderedPowerOf2(int N) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool ReorderedPowerOf2(int N) { }
+    }
 }

@@ -23,5 +23,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution22
 {
-public class Solution {    public IList<string> GenerateParenthesis(int n) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<string> GenerateParenthesis(int n) { }
+    }
 }

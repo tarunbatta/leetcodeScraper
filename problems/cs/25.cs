@@ -30,5 +30,11 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution25
 {
-/** * Definition for singly-linked list. * public class ListNode { *     public int val; *     public ListNode next; *     public ListNode(int x) { val = x; } * } */public class Solution {    public ListNode ReverseKGroup(ListNode head, int k) {            }
+    /** * Definition for singly-linked list. * public class ListNode { *     public int val; *     public ListNode next; *     public ListNode(int x) { val = x; } * } */
+    public class Solution
+    {
+        public void Init() { }
+
+        public ListNode ReverseKGroup(ListNode head, int k) { }
+    }
 }

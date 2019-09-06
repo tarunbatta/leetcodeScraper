@@ -49,5 +49,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1103
 {
-public class Solution {    public int[] DistributeCandies(int candies, int num_people) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] DistributeCandies(int candies, int num_people) { }
+    }
 }

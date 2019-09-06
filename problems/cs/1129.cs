@@ -42,5 +42,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1129
 {
-public class Solution {    public int[] ShortestAlternatingPaths(int n, int[][] red_edges, int[][] blue_edges) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] ShortestAlternatingPaths(int n, int[][] red_edges, int[][] blue_edges) { }
+    }
 }

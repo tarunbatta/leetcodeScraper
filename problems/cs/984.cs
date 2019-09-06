@@ -42,5 +42,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution984
 {
-public class Solution {    public string StrWithout3a3b(int A, int B) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string StrWithout3a3b(int A, int B) { }
+    }
 }

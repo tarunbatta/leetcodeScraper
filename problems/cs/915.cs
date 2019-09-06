@@ -50,5 +50,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution915
 {
-public class Solution {    public int PartitionDisjoint(int[] A) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int PartitionDisjoint(int[] A) { }
+    }
 }

@@ -48,5 +48,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution923
 {
-public class Solution {    public int ThreeSumMulti(int[] A, int target) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int ThreeSumMulti(int[] A, int target) { }
+    }
 }

@@ -44,5 +44,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution929
 {
-public class Solution {    public int NumUniqueEmails(string[] emails) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int NumUniqueEmails(string[] emails) { }
+    }
 }

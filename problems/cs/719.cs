@@ -31,5 +31,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution719
 {
-public class Solution {    public int SmallestDistancePair(int[] nums, int k) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int SmallestDistancePair(int[] nums, int k) { }
+    }
 }

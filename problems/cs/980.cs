@@ -62,5 +62,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution980
 {
-public class Solution {    public int UniquePathsIII(int[][] grid) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int UniquePathsIII(int[][] grid) { }
+    }
 }

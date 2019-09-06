@@ -32,5 +32,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution661
 {
-public class Solution {    public int[][] ImageSmoother(int[][] M) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[][] ImageSmoother(int[][] M) { }
+    }
 }

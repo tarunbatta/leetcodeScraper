@@ -32,5 +32,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution801
 {
-public class Solution {    public int MinSwap(int[] A, int[] B) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MinSwap(int[] A, int[] B) { }
+    }
 }

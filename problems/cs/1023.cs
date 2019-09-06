@@ -51,5 +51,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1023
 {
-public class Solution {    public IList<bool> CamelMatch(string[] queries, string pattern) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<bool> CamelMatch(string[] queries, string pattern) { }
+    }
 }

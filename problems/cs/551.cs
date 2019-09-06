@@ -34,5 +34,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution551
 {
-public class Solution {    public bool CheckRecord(string s) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool CheckRecord(string s) { }
+    }
 }

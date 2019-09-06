@@ -41,5 +41,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution65
 {
-public class Solution {    public bool IsNumber(string s) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool IsNumber(string s) { }
+    }
 }

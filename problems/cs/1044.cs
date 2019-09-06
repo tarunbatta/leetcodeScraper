@@ -35,5 +35,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1044
 {
-public class Solution {    public string LongestDupSubstring(string S) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string LongestDupSubstring(string S) { }
+    }
 }

@@ -41,5 +41,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution482
 {
-public class Solution {    public string LicenseKeyFormatting(string S, int K) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string LicenseKeyFormatting(string S, int K) { }
+    }
 }

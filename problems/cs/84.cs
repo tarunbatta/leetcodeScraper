@@ -28,5 +28,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution84
 {
-public class Solution {    public int LargestRectangleArea(int[] heights) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int LargestRectangleArea(int[] heights) { }
+    }
 }

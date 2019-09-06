@@ -26,5 +26,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution300
 {
-public class Solution {    public int LengthOfLIS(int[] nums) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int LengthOfLIS(int[] nums) { }
+    }
 }

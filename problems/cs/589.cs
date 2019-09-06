@@ -27,5 +27,11 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution589
 {
-/*// Definition for a Node.public class Node {    public int val;    public IList<Node> children;​    public Node(){}    public Node(int _val,IList<Node> _children) {        val = _val;        children = _children;}*/public class Solution {    public IList<int> Preorder(Node root) {            }
+    /*// Definition for a Node.public class Node {    public int val;    public IList<Node> children;​    public Node(){}    public Node(int _val,IList<Node> _children) {        val = _val;        children = _children;}*/
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<int> Preorder(Node root) { }
+    }
 }

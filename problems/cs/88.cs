@@ -26,5 +26,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution88
 {
-public class Solution {    public void Merge(int[] nums1, int m, int[] nums2, int n) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public void Merge(int[] nums1, int m, int[] nums2, int n) { }
+    }
 }

@@ -38,5 +38,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution790
 {
-public class Solution {    public int NumTilings(int N) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int NumTilings(int N) { }
+    }
 }

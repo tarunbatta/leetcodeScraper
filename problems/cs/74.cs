@@ -39,5 +39,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution74
 {
-public class Solution {    public bool SearchMatrix(int[][] matrix, int target) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool SearchMatrix(int[][] matrix, int target) { }
+    }
 }

@@ -48,5 +48,11 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1019
 {
-/** * Definition for singly-linked list. * public class ListNode { *     public int val; *     public ListNode next; *     public ListNode(int x) { val = x; } * } */public class Solution {    public int[] NextLargerNodes(ListNode head) {            }
+    /** * Definition for singly-linked list. * public class ListNode { *     public int val; *     public ListNode next; *     public ListNode(int x) { val = x; } * } */
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] NextLargerNodes(ListNode head) { }
+    }
 }

@@ -34,5 +34,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution930
 {
-public class Solution {    public int NumSubarraysWithSum(int[] A, int S) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int NumSubarraysWithSum(int[] A, int S) { }
+    }
 }

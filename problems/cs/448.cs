@@ -22,5 +22,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution448
 {
-public class Solution {    public IList<int> FindDisappearedNumbers(int[] nums) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<int> FindDisappearedNumbers(int[] nums) { }
+    }
 }

@@ -55,5 +55,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution950
 {
-public class Solution {    public int[] DeckRevealedIncreasing(int[] deck) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] DeckRevealedIncreasing(int[] deck) { }
+    }
 }

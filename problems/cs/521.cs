@@ -33,5 +33,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution521
 {
-public class Solution {    public int FindLUSlength(string a, string b) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int FindLUSlength(string a, string b) { }
+    }
 }

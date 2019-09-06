@@ -40,5 +40,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution72
 {
-public class Solution {    public int MinDistance(string word1, string word2) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MinDistance(string word1, string word2) { }
+    }
 }

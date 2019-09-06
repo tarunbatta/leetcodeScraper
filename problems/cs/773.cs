@@ -51,5 +51,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution773
 {
-public class Solution {    public int SlidingPuzzle(int[][] board) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int SlidingPuzzle(int[][] board) { }
+    }
 }

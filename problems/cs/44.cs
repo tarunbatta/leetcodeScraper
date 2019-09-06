@@ -67,5 +67,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution44
 {
-public class Solution {    public bool IsMatch(string s, string p) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool IsMatch(string s, string p) { }
+    }
 }

@@ -50,5 +50,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution393
 {
-public class Solution {    public bool ValidUtf8(int[] data) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool ValidUtf8(int[] data) { }
+    }
 }

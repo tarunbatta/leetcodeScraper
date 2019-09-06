@@ -54,5 +54,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution756
 {
-public class Solution {    public bool PyramidTransition(string bottom, IList<string> allowed) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool PyramidTransition(string bottom, IList<string> allowed) { }
+    }
 }

@@ -46,5 +46,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1007
 {
-public class Solution {    public int MinDominoRotations(int[] A, int[] B) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MinDominoRotations(int[] A, int[] B) { }
+    }
 }

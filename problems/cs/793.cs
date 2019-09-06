@@ -29,5 +29,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution793
 {
-public class Solution {    public int PreimageSizeFZF(int K) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int PreimageSizeFZF(int K) { }
+    }
 }

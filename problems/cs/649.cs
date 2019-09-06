@@ -60,5 +60,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution649
 {
-public class Solution {    public string PredictPartyVictory(string senate) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string PredictPartyVictory(string senate) { }
+    }
 }

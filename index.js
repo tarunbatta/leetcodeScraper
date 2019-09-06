@@ -30,8 +30,10 @@
 
         await getProblems();
         await page.waitFor(config.timeout);
-        await scrapeData();
-        await page.waitFor(config.timeout);
+        if (config.enableScraping) {
+            await scrapeData();
+            await page.waitFor(config.timeout);
+        }
         await generateCodeFiles();
 
         await browser.close();
@@ -167,8 +169,18 @@
                 if (problem.code == null || problem.code.length == 0) {
                     problemFile += '// {{ MISSING CODE }}' + newLine;
                 } else {
+                    problem.code = problem.code.trim();
                     problem.code = problem.code.startsWith('undefined') ? problem.code.substring(9, problem.code.length - 1) : problem.code;
-                    problemFile += problem.code.trim() + newLine;
+                    problem.code = problem.code.replace('public class Solution {', 'public class Solution { public void Init() { }' + newLine + newLine);
+
+                    const startBraceCount = problem.code.replace(/[^{]/g, '').length;
+                    const endBraceCount = problem.code.replace(/[^}]/g, '').length;
+
+                    if (startBraceCount > endBraceCount) {
+                        problem.code += '}';
+                    }
+
+                    problemFile += problem.code + newLine;
                 }
 
                 problemFile += '}' + newLine;

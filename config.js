@@ -15,6 +15,7 @@
         selectedlanguage: 'lang-select-C#',
         isRefetchMetadata: false,
         isRefetchProblems: false,
+        enableScraping: true,
         pageNavigationOptions: {
             timeout: timeout * 10,
             waitUntil: ['load', 'domcontentloaded'],

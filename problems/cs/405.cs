@@ -37,5 +37,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution405
 {
-public class Solution {    public string ToHex(int num) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string ToHex(int num) { }
+    }
 }

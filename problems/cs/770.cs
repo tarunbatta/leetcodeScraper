@@ -58,5 +58,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution770
 {
-public class Solution {    public IList<string> BasicCalculatorIV(string expression, string[] evalvars, int[] evalints) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<string> BasicCalculatorIV(string expression, string[] evalvars, int[] evalints) { }
+    }
 }

@@ -40,5 +40,5 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution855
 {
-public class ExamRoom {​    public ExamRoom(int N) {            }        public int Seat() {            }        public void Leave(int p) {            }}​/** * Your ExamRoom object will be instantiated and called as such: * ExamRoom obj = new ExamRoom(N); * int param_1 = obj.Seat(); * obj.Leave(p); *
+    public class ExamRoom {​    public ExamRoom(int N) { } public int Seat() { } public void Leave(int p) { } }​/** * Your ExamRoom object will be instantiated and called as such: * ExamRoom obj = new ExamRoom(N); * int param_1 = obj.Seat(); * obj.Leave(p); *
 }

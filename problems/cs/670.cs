@@ -31,5 +31,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution670
 {
-public class Solution {    public int MaximumSwap(int num) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MaximumSwap(int num) { }
+    }
 }

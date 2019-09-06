@@ -26,5 +26,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution401
 {
-public class Solution {    public IList<string> ReadBinaryWatch(int num) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<string> ReadBinaryWatch(int num) { }
+    }
 }

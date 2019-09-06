@@ -38,5 +38,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution870
 {
-public class Solution {    public int[] AdvantageCount(int[] A, int[] B) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] AdvantageCount(int[] A, int[] B) { }
+    }
 }

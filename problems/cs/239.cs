@@ -33,5 +33,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution239
 {
-public class Solution {    public int[] MaxSlidingWindow(int[] nums, int k) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] MaxSlidingWindow(int[] nums, int k) { }
+    }
 }

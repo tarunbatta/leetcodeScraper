@@ -28,5 +28,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution633
 {
-public class Solution {    public bool JudgeSquareSum(int c) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool JudgeSquareSum(int c) { }
+    }
 }

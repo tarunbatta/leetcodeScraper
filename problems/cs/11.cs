@@ -26,5 +26,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution11
 {
-public class Solution {    public int MaxArea(int[] height) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MaxArea(int[] height) { }
+    }
 }

@@ -48,5 +48,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution451
 {
-public class Solution {    public string FrequencySort(string s) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string FrequencySort(string s) { }
+    }
 }

@@ -26,5 +26,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution118
 {
-public class Solution {    public IList<IList<int>> Generate(int numRows) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<IList<int>> Generate(int numRows) { }
+    }
 }

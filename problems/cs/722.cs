@@ -32,24 +32,24 @@ source = [&quot;/*Test program */&quot;, &quot;int main()&quot;, &quot;{ &quot;,
 The line by line code is visualized as below:
 /*Test program */
 int main()
-{ 
-  // variable declaration 
-int a, b, c;
-/* This is a test
-   multiline  
-   comment for 
-   testing */
-a = b + c;
+{
+    // variable declaration 
+    int a, b, c;
+    /* This is a test
+       multiline  
+       comment for 
+       testing */
+    a = b + c;
 }
 
 Output: [&quot;int main()&quot;,&quot;{ &quot;,&quot;  &quot;,&quot;int a, b, c;&quot;,&quot;a = b + c;&quot;,&quot;}&quot;]
 
 The line by line code is visualized as below:
 int main()
-{ 
-  
-int a, b, c;
-a = b + c;
+{
+
+    int a, b, c;
+    a = b + c;
 }
 
 Explanation: 
@@ -61,7 +61,8 @@ Example 2:
 Input: 
 source = [&quot;a/*comment&quot;, &quot;line&quot;, &quot;more_comment*/b&quot;]
 Output: [&quot;ab&quot;]
-Explanation: The original source string is &quot;a/*comment\nline\nmore_comment*/b&quot;, where we have bolded the newline characters.  After deletion, the implicit newline characters are deleted, leaving the string &quot;ab&quot;, which when delimited by newline characters becomes [&quot;ab&quot;].
+Explanation: The original source string is &quot;a/*comment\nline\nmore_comment*/b&quot;, where we have bolded the newline characters.After deletion, the implicit newline characters are deleted, leaving the string &quot;ab&quot;, which when delimited by newline characters becomes[&quot;ab & quot;].
+
 
 
 
@@ -76,5 +77,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution722
 {
-public class Solution {    public IList<string> RemoveComments(string[] source) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<string> RemoveComments(string[] source) { }
+    }
 }

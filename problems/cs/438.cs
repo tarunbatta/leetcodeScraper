@@ -40,5 +40,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution438
 {
-public class Solution {    public IList<int> FindAnagrams(string s, string p) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<int> FindAnagrams(string s, string p) { }
+    }
 }

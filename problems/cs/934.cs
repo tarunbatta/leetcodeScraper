@@ -51,5 +51,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution934
 {
-public class Solution {    public int ShortestBridge(int[][] A) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int ShortestBridge(int[][] A) { }
+    }
 }

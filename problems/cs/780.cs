@@ -35,5 +35,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution780
 {
-public class Solution {    public bool ReachingPoints(int sx, int sy, int tx, int ty) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool ReachingPoints(int sx, int sy, int tx, int ty) { }
+    }
 }

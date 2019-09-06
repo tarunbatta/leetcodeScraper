@@ -22,5 +22,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution201
 {
-public class Solution {    public int RangeBitwiseAnd(int m, int n) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int RangeBitwiseAnd(int m, int n) { }
+    }
 }

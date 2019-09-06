@@ -35,5 +35,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution373
 {
-public class Solution {    public IList<IList<int>> KSmallestPairs(int[] nums1, int[] nums2, int k) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<IList<int>> KSmallestPairs(int[] nums1, int[] nums2, int k) { }
+    }
 }

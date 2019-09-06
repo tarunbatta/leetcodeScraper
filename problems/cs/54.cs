@@ -31,5 +31,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution54
 {
-public class Solution {    public IList<int> SpiralOrder(int[][] matrix) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<int> SpiralOrder(int[][] matrix) { }
+    }
 }

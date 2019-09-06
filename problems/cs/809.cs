@@ -42,5 +42,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution809
 {
-public class Solution {    public int ExpressiveWords(string S, string[] words) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int ExpressiveWords(string S, string[] words) { }
+    }
 }

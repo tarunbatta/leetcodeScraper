@@ -55,5 +55,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution944
 {
-public class Solution {    public int MinDeletionSize(string[] A) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MinDeletionSize(string[] A) { }
+    }
 }

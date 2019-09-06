@@ -66,5 +66,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution921
 {
-public class Solution {    public int MinAddToMakeValid(string S) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MinAddToMakeValid(string S) { }
+    }
 }

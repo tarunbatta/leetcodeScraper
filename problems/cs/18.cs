@@ -26,5 +26,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution18
 {
-public class Solution {    public IList<IList<int>> FourSum(int[] nums, int target) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<IList<int>> FourSum(int[] nums, int target) { }
+    }
 }

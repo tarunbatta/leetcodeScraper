@@ -29,5 +29,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution463
 {
-public class Solution {    public int IslandPerimeter(int[][] grid) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int IslandPerimeter(int[][] grid) { }
+    }
 }

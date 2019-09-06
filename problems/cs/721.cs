@@ -32,5 +32,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution721
 {
-public class Solution {    public IList<IList<string>> AccountsMerge(IList<IList<string>> accounts) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<IList<string>> AccountsMerge(IList<IList<string>> accounts) { }
+    }
 }

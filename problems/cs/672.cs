@@ -51,5 +51,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution672
 {
-public class Solution {    public int FlipLights(int n, int m) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int FlipLights(int n, int m) { }
+    }
 }

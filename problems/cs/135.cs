@@ -34,5 +34,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution135
 {
-public class Solution {    public int Candy(int[] ratings) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int Candy(int[] ratings) { }
+    }
 }

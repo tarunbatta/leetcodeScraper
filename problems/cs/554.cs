@@ -42,5 +42,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution554
 {
-public class Solution {    public int LeastBricks(IList<IList<int>> wall) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int LeastBricks(IList<IList<int>> wall) { }
+    }
 }

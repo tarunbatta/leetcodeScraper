@@ -36,5 +36,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution977
 {
-public class Solution {    public int[] SortedSquares(int[] A) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] SortedSquares(int[] A) { }
+    }
 }

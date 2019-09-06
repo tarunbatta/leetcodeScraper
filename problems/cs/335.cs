@@ -47,5 +47,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution335
 {
-public class Solution {    public bool IsSelfCrossing(int[] x) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool IsSelfCrossing(int[] x) { }
+    }
 }

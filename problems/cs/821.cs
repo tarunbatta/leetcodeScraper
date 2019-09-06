@@ -26,5 +26,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution821
 {
-public class Solution {    public int[] ShortestToChar(string S, char C) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] ShortestToChar(string S, char C) { }
+    }
 }

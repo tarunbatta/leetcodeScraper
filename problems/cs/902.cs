@@ -46,5 +46,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution902
 {
-public class Solution {    public int AtMostNGivenDigitSet(string[] D, int N) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int AtMostNGivenDigitSet(string[] D, int N) { }
+    }
 }

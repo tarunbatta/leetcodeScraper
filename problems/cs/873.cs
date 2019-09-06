@@ -51,5 +51,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution873
 {
-public class Solution {    public int LenLongestFibSubseq(int[] A) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int LenLongestFibSubseq(int[] A) { }
+    }
 }

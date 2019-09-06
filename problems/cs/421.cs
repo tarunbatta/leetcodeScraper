@@ -26,5 +26,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution421
 {
-public class Solution {    public int FindMaximumXOR(int[] nums) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int FindMaximumXOR(int[] nums) { }
+    }
 }

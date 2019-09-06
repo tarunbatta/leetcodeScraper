@@ -39,5 +39,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution779
 {
-public class Solution {    public int KthGrammar(int N, int K) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int KthGrammar(int N, int K) { }
+    }
 }

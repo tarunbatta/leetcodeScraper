@@ -34,5 +34,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution537
 {
-public class Solution {    public string ComplexNumberMultiply(string a, string b) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string ComplexNumberMultiply(string a, string b) { }
+    }
 }

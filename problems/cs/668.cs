@@ -48,5 +48,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution668
 {
-public class Solution {    public int FindKthNumber(int m, int n, int k) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int FindKthNumber(int m, int n, int k) { }
+    }
 }

@@ -26,5 +26,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution342
 {
-public class Solution {    public bool IsPowerOfFour(int num) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool IsPowerOfFour(int num) { }
+    }
 }

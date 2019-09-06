@@ -49,5 +49,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1169
 {
-public class Solution {    public IList<string> InvalidTransactions(string[] transactions) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<string> InvalidTransactions(string[] transactions) { }
+    }
 }

@@ -52,5 +52,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution140
 {
-public class Solution {    public IList<string> WordBreak(string s, IList<string> wordDict) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<string> WordBreak(string s, IList<string> wordDict) { }
+    }
 }

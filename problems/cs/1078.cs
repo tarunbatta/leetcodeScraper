@@ -38,5 +38,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1078
 {
-public class Solution {    public string[] FindOcurrences(string text, string first, string second) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string[] FindOcurrences(string text, string first, string second) { }
+    }
 }

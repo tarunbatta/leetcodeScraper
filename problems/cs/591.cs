@@ -72,5 +72,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution591
 {
-public class Solution {    public bool IsValid(string code) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool IsValid(string code) { }
+    }
 }

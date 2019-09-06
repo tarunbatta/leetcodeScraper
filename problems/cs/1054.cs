@@ -40,5 +40,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1054
 {
-public class Solution {    public int[] RearrangeBarcodes(int[] barcodes) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] RearrangeBarcodes(int[] barcodes) { }
+    }
 }

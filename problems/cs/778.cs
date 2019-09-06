@@ -48,5 +48,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution778
 {
-public class Solution {    public int SwimInWater(int[][] grid) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int SwimInWater(int[][] grid) { }
+    }
 }

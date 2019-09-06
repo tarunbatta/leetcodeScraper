@@ -47,5 +47,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution691
 {
-public class Solution {    public int MinStickers(string[] stickers, string target) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MinStickers(string[] stickers, string target) { }
+    }
 }

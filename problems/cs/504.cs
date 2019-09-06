@@ -26,5 +26,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution504
 {
-public class Solution {    public string ConvertToBase7(int num) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string ConvertToBase7(int num) { }
+    }
 }

@@ -59,5 +59,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution888
 {
-public class Solution {    public int[] FairCandySwap(int[] A, int[] B) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] FairCandySwap(int[] A, int[] B) { }
+    }
 }

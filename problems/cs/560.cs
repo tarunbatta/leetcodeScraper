@@ -22,5 +22,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution560
 {
-public class Solution {    public int SubarraySum(int[] nums, int k) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int SubarraySum(int[] nums, int k) { }
+    }
 }

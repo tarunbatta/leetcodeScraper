@@ -24,5 +24,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution274
 {
-public class Solution {    public int HIndex(int[] citations) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int HIndex(int[] citations) { }
+    }
 }

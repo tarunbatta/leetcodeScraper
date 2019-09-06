@@ -37,5 +37,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution850
 {
-public class Solution {    public int RectangleArea(int[][] rectangles) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int RectangleArea(int[][] rectangles) { }
+    }
 }

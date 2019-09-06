@@ -23,5 +23,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution229
 {
-public class Solution {    public IList<int> MajorityElement(int[] nums) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<int> MajorityElement(int[] nums) { }
+    }
 }

@@ -51,5 +51,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution457
 {
-public class Solution {    public bool CircularArrayLoop(int[] nums) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool CircularArrayLoop(int[] nums) { }
+    }
 }

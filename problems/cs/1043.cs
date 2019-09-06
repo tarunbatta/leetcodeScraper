@@ -29,5 +29,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1043
 {
-public class Solution {    public int MaxSumAfterPartitioning(int[] A, int K) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MaxSumAfterPartitioning(int[] A, int K) { }
+    }
 }

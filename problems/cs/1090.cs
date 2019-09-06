@@ -63,5 +63,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1090
 {
-public class Solution {    public int LargestValsFromLabels(int[] values, int[] labels, int num_wanted, int use_limit) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int LargestValsFromLabels(int[] values, int[] labels, int num_wanted, int use_limit) { }
+    }
 }

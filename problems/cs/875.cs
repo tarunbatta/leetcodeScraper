@@ -52,5 +52,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution875
 {
-public class Solution {    public int MinEatingSpeed(int[] piles, int H) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MinEatingSpeed(int[] piles, int H) { }
+    }
 }

@@ -50,5 +50,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution824
 {
-public class Solution {    public string ToGoatLatin(string S) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string ToGoatLatin(string S) { }
+    }
 }

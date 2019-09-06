@@ -30,5 +30,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution43
 {
-public class Solution {    public string Multiply(string num1, string num2) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string Multiply(string num1, string num2) { }
+    }
 }

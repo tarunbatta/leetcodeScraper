@@ -53,5 +53,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution910
 {
-public class Solution {    public int SmallestRangeII(int[] A, int K) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int SmallestRangeII(int[] A, int K) { }
+    }
 }

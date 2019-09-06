@@ -26,5 +26,5 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution352
 {
-public class SummaryRanges {​    /** Initialize your data structure here. */    public SummaryRanges() {            }        public void AddNum(int val) {            }        public int[][] GetIntervals() {            }}​/** * Your SummaryRanges object will be instantiated and called as such: * SummaryRanges obj = new SummaryRanges(); * obj.AddNum(val); * int[][] param_2 = obj.GetIntervals(); *
+    public class SummaryRanges {​    /** Initialize your data structure here. */    public SummaryRanges() { } public void AddNum(int val) { } public int[][] GetIntervals() { } }​/** * Your SummaryRanges object will be instantiated and called as such: * SummaryRanges obj = new SummaryRanges(); * obj.AddNum(val); * int[][] param_2 = obj.GetIntervals(); *
 }

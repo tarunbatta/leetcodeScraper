@@ -35,5 +35,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution326
 {
-public class Solution {    public bool IsPowerOfThree(int n) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool IsPowerOfThree(int n) { }
+    }
 }

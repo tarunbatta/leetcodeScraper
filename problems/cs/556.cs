@@ -27,5 +27,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution556
 {
-public class Solution {    public int NextGreaterElement(int n) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int NextGreaterElement(int n) { }
+    }
 }

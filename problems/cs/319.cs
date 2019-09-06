@@ -23,5 +23,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution319
 {
-public class Solution {    public int BulbSwitch(int n) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int BulbSwitch(int n) { }
+    }
 }

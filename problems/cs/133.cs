@@ -37,5 +37,11 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution133
 {
-/*// Definition for a Node.public class Node {    public int val;    public IList<Node> neighbors;​    public Node(){}    public Node(int _val,IList<Node> _neighbors) {        val = _val;        neighbors = _neighbors;}*/public class Solution {    public Node CloneGraph(Node node) {            }
+    /*// Definition for a Node.public class Node {    public int val;    public IList<Node> neighbors;​    public Node(){}    public Node(int _val,IList<Node> _neighbors) {        val = _val;        neighbors = _neighbors;}*/
+    public class Solution
+    {
+        public void Init() { }
+
+        public Node CloneGraph(Node node) { }
+    }
 }

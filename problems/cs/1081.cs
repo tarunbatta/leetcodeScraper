@@ -51,5 +51,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1081
 {
-public class Solution {    public string SmallestSubsequence(string text) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string SmallestSubsequence(string text) { }
+    }
 }

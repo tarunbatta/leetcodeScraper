@@ -39,5 +39,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution263
 {
-public class Solution {    public bool IsUgly(int num) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool IsUgly(int num) { }
+    }
 }

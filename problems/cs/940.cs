@@ -57,5 +57,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution940
 {
-public class Solution {    public int DistinctSubseqII(string S) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int DistinctSubseqII(string S) { }
+    }
 }

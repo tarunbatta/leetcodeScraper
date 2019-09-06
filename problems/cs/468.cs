@@ -64,5 +64,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution468
 {
-public class Solution {    public string ValidIPAddress(string IP) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string ValidIPAddress(string IP) { }
+    }
 }

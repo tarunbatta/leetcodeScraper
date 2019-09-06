@@ -57,5 +57,16 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution735
 {
-public class Solution {    public int[] AsteroidCollision(int[] asteroids) {            }
+    public class Solution
+    {
+        public void Init()
+        {
+
+        }
+
+        public int[] AsteroidCollision(int[] asteroids)
+        {
+
+        }
+    }
 }

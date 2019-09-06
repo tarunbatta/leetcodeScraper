@@ -30,5 +30,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution500
 {
-public class Solution {    public string[] FindWords(string[] words) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string[] FindWords(string[] words) { }
+    }
 }

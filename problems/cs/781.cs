@@ -36,5 +36,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution781
 {
-public class Solution {    public int NumRabbits(int[] answers) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int NumRabbits(int[] answers) { }
+    }
 }

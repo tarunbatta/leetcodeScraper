@@ -32,5 +32,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution29
 {
-public class Solution {    public int Divide(int dividend, int divisor) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int Divide(int dividend, int divisor) { }
+    }
 }

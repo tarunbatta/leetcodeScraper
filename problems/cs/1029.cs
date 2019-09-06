@@ -37,5 +37,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1029
 {
-public class Solution {    public int TwoCitySchedCost(int[][] costs) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int TwoCitySchedCost(int[][] costs) { }
+    }
 }

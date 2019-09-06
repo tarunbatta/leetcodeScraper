@@ -54,5 +54,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1111
 {
-public class Solution {    public int[] MaxDepthAfterSplit(string seq) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] MaxDepthAfterSplit(string seq) { }
+    }
 }

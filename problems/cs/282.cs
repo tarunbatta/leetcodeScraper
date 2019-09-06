@@ -38,5 +38,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution282
 {
-public class Solution {    public IList<string> AddOperators(string num, int target) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<string> AddOperators(string num, int target) { }
+    }
 }

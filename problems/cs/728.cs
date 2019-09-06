@@ -27,5 +27,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution728
 {
-public class Solution {    public IList<int> SelfDividingNumbers(int left, int right) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<int> SelfDividingNumbers(int left, int right) { }
+    }
 }

@@ -46,5 +46,5 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution732
 {
-public class MyCalendarThree {​    public MyCalendarThree() {            }        public int Book(int start, int end) {            }}​/** * Your MyCalendarThree object will be instantiated and called as such: * MyCalendarThree obj = new MyCalendarThree(); * int param_1 = obj.Book(start,end); *
+    public class MyCalendarThree {​    public MyCalendarThree() { } public int Book(int start, int end) { } }​/** * Your MyCalendarThree object will be instantiated and called as such: * MyCalendarThree obj = new MyCalendarThree(); * int param_1 = obj.Book(start,end); *
 }

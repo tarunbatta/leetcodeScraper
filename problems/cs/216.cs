@@ -29,5 +29,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution216
 {
-public class Solution {    public IList<IList<int>> CombinationSum3(int k, int n) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<IList<int>> CombinationSum3(int k, int n) { }
+    }
 }

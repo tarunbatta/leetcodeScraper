@@ -30,5 +30,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution674
 {
-public class Solution {    public int FindLengthOfLCIS(int[] nums) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int FindLengthOfLCIS(int[] nums) { }
+    }
 }

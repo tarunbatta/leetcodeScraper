@@ -38,5 +38,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1002
 {
-public class Solution {    public IList<string> CommonChars(string[] A) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<string> CommonChars(string[] A) { }
+    }
 }

@@ -42,5 +42,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution60
 {
-public class Solution {    public string GetPermutation(int n, int k) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string GetPermutation(int n, int k) { }
+    }
 }

@@ -61,5 +61,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1024
 {
-public class Solution {    public int VideoStitching(int[][] clips, int T) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int VideoStitching(int[][] clips, int T) { }
+    }
 }

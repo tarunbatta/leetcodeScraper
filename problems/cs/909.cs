@@ -59,5 +59,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution909
 {
-public class Solution {    public int SnakesAndLadders(int[][] board) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int SnakesAndLadders(int[][] board) { }
+    }
 }

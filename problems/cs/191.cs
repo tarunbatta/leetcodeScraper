@@ -48,5 +48,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution191
 {
-public class Solution {    public int HammingWeight(uint n) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int HammingWeight(uint n) { }
+    }
 }

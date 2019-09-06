@@ -47,5 +47,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution903
 {
-public class Solution {    public int NumPermsDISequence(string S) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int NumPermsDISequence(string S) { }
+    }
 }

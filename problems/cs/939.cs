@@ -39,5 +39,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution939
 {
-public class Solution {    public int MinAreaRect(int[][] points) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MinAreaRect(int[][] points) { }
+    }
 }

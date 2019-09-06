@@ -35,5 +35,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1131
 {
-public class Solution {    public int MaxAbsValExpr(int[] arr1, int[] arr2) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MaxAbsValExpr(int[] arr1, int[] arr2) { }
+    }
 }

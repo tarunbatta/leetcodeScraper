@@ -54,5 +54,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution976
 {
-public class Solution {    public int LargestPerimeter(int[] A) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int LargestPerimeter(int[] A) { }
+    }
 }

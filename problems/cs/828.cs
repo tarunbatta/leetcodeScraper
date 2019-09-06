@@ -44,5 +44,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution828
 {
-public class Solution {    public int UniqueLetterString(string S) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int UniqueLetterString(string S) { }
+    }
 }

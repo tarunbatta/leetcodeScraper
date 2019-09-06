@@ -36,5 +36,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1079
 {
-public class Solution {    public int NumTilePossibilities(string tiles) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int NumTilePossibilities(string tiles) { }
+    }
 }

@@ -52,5 +52,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1156
 {
-public class Solution {    public int MaxRepOpt1(string text) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MaxRepOpt1(string text) { }
+    }
 }

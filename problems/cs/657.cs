@@ -30,5 +30,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution657
 {
-public class Solution {    public bool JudgeCircle(string moves) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool JudgeCircle(string moves) { }
+    }
 }

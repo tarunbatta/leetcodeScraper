@@ -38,5 +38,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution210
 {
-public class Solution {    public int[] FindOrder(int numCourses, int[][] prerequisites) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] FindOrder(int numCourses, int[][] prerequisites) { }
+    }
 }

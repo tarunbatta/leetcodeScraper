@@ -52,5 +52,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution851
 {
-public class Solution {    public int[] LoudAndRich(int[][] richer, int[] quiet) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] LoudAndRich(int[][] richer, int[] quiet) { }
+    }
 }

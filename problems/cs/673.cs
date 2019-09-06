@@ -29,5 +29,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution673
 {
-public class Solution {    public int FindNumberOfLIS(int[] nums) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int FindNumberOfLIS(int[] nums) { }
+    }
 }

@@ -56,5 +56,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1035
 {
-public class Solution {    public int MaxUncrossedLines(int[] A, int[] B) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MaxUncrossedLines(int[] A, int[] B) { }
+    }
 }

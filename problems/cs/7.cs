@@ -32,5 +32,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution7
 {
-public class Solution {    public int Reverse(int x) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int Reverse(int x) { }
+    }
 }

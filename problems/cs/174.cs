@@ -61,5 +61,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution174
 {
-public class Solution {    public int CalculateMinimumHP(int[][] dungeon) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int CalculateMinimumHP(int[][] dungeon) { }
+    }
 }

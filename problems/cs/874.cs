@@ -54,5 +54,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution874
 {
-public class Solution {    public int RobotSim(int[] commands, int[][] obstacles) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int RobotSim(int[] commands, int[][] obstacles) { }
+    }
 }

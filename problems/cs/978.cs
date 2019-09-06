@@ -55,5 +55,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution978
 {
-public class Solution {    public int MaxTurbulenceSize(int[] A) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MaxTurbulenceSize(int[] A) { }
+    }
 }

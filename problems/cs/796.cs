@@ -27,5 +27,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution796
 {
-public class Solution {    public bool RotateString(string A, string B) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool RotateString(string A, string B) { }
+    }
 }

@@ -30,5 +30,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution476
 {
-public class Solution {    public int FindComplement(int num) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int FindComplement(int num) { }
+    }
 }

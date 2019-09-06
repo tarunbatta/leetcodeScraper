@@ -49,5 +49,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution794
 {
-public class Solution {    public bool ValidTicTacToe(string[] board) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool ValidTicTacToe(string[] board) { }
+    }
 }

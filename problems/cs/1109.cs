@@ -30,5 +30,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1109
 {
-public class Solution {    public int[] CorpFlightBookings(int[][] bookings, int n) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] CorpFlightBookings(int[][] bookings, int n) { }
+    }
 }

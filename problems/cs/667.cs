@@ -36,5 +36,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution667
 {
-public class Solution {    public int[] ConstructArray(int n, int k) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] ConstructArray(int n, int k) { }
+    }
 }

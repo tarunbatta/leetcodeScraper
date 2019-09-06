@@ -32,5 +32,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution375
 {
-public class Solution {    public int GetMoneyAmount(int n) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int GetMoneyAmount(int n) { }
+    }
 }

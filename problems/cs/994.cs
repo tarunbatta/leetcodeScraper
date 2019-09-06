@@ -57,5 +57,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution994
 {
-public class Solution {    public int OrangesRotting(int[][] grid) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int OrangesRotting(int[][] grid) { }
+    }
 }

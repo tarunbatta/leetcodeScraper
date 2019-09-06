@@ -18,5 +18,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution415
 {
-public class Solution {    public string AddStrings(string num1, string num2) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string AddStrings(string num1, string num2) { }
+    }
 }

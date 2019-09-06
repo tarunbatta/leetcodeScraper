@@ -66,5 +66,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution36
 {
-public class Solution {    public bool IsValidSudoku(char[][] board) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool IsValidSudoku(char[][] board) { }
+    }
 }

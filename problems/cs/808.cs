@@ -40,5 +40,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution808
 {
-public class Solution {    public double SoupServings(int N) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public double SoupServings(int N) { }
+    }
 }

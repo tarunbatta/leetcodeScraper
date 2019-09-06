@@ -33,5 +33,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution486
 {
-public class Solution {    public bool PredictTheWinner(int[] nums) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool PredictTheWinner(int[] nums) { }
+    }
 }

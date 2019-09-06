@@ -56,5 +56,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution844
 {
-public class Solution {    public bool BackspaceCompare(string S, string T) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool BackspaceCompare(string S, string T) { }
+    }
 }

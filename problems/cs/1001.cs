@@ -52,5 +52,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1001
 {
-public class Solution {    public int[] GridIllumination(int N, int[][] lamps, int[][] queries) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] GridIllumination(int N, int[][] lamps, int[][] queries) { }
+    }
 }

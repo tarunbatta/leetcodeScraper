@@ -41,5 +41,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution846
 {
-public class Solution {    public bool IsNStraightHand(int[] hand, int W) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool IsNStraightHand(int[] hand, int W) { }
+    }
 }

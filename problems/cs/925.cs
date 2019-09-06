@@ -65,5 +65,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution925
 {
-public class Solution {    public bool IsLongPressedName(string name, string typed) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool IsLongPressedName(string name, string typed) { }
+    }
 }

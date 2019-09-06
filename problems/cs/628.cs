@@ -36,5 +36,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution628
 {
-public class Solution {    public int MaximumProduct(int[] nums) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MaximumProduct(int[] nums) { }
+    }
 }

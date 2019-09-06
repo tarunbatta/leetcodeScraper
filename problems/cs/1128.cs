@@ -25,5 +25,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1128
 {
-public class Solution {    public int NumEquivDominoPairs(int[][] dominoes) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int NumEquivDominoPairs(int[][] dominoes) { }
+    }
 }

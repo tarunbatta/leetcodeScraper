@@ -56,5 +56,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution928
 {
-public class Solution {    public int MinMalwareSpread(int[][] graph, int[] initial) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MinMalwareSpread(int[][] graph, int[] initial) { }
+    }
 }

@@ -39,5 +39,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution692
 {
-public class Solution {    public IList<string> TopKFrequent(string[] words, int k) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<string> TopKFrequent(string[] words, int k) { }
+    }
 }

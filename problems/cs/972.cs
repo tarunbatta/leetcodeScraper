@@ -64,5 +64,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution972
 {
-public class Solution {    public bool IsRationalEqual(string S, string T) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool IsRationalEqual(string S, string T) { }
+    }
 }

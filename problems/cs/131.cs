@@ -22,5 +22,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution131
 {
-public class Solution {    public IList<IList<string>> Partition(string s) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<IList<string>> Partition(string s) { }
+    }
 }

@@ -11,5 +11,5 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution966
 {
-// {{ MISSING CODE }}
+    // {{ MISSING CODE }}
 }

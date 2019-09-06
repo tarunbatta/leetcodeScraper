@@ -38,5 +38,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution664
 {
-public class Solution {    public int StrangePrinter(string s) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int StrangePrinter(string s) { }
+    }
 }

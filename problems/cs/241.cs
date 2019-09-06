@@ -30,5 +30,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution241
 {
-public class Solution {    public IList<int> DiffWaysToCompute(string input) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<int> DiffWaysToCompute(string input) { }
+    }
 }

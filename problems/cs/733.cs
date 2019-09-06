@@ -35,5 +35,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution733
 {
-public class Solution {    public int[][] FloodFill(int[][] image, int sr, int sc, int newColor) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[][] FloodFill(int[][] image, int sr, int sc, int newColor) { }
+    }
 }

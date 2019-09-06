@@ -50,5 +50,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution970
 {
-public class Solution {    public IList<int> PowerfulIntegers(int x, int y, int bound) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<int> PowerfulIntegers(int x, int y, int bound) { }
+    }
 }

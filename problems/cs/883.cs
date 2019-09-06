@@ -114,5 +114,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution883
 {
-public class Solution {    public int ProjectionArea(int[][] grid) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int ProjectionArea(int[][] grid) { }
+    }
 }

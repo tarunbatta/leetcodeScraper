@@ -48,5 +48,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution854
 {
-public class Solution {    public int KSimilarity(string A, string B) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int KSimilarity(string A, string B) { }
+    }
 }

@@ -70,5 +70,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1096
 {
-public class Solution {    public IList<string> BraceExpansionII(string expression) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<string> BraceExpansionII(string expression) { }
+    }
 }

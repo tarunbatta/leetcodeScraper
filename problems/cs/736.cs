@@ -69,5 +69,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution736
 {
-public class Solution {    public int Evaluate(string expression) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int Evaluate(string expression) { }
+    }
 }

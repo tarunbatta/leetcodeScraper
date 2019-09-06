@@ -36,5 +36,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution50
 {
-public class Solution {    public double MyPow(double x, int n) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public double MyPow(double x, int n) { }
+    }
 }

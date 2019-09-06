@@ -26,5 +26,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution79
 {
-public class Solution {    public bool Exist(char[][] board, string word) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool Exist(char[][] board, string word) { }
+    }
 }

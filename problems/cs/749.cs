@@ -66,5 +66,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution749
 {
-public class Solution {    public int ContainVirus(int[][] grid) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int ContainVirus(int[][] grid) { }
+    }
 }

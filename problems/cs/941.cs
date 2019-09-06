@@ -61,5 +61,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution941
 {
-public class Solution {    public bool ValidMountainArray(int[] A) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool ValidMountainArray(int[] A) { }
+    }
 }

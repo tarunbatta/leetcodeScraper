@@ -37,5 +37,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1125
 {
-public class Solution {    public int[] SmallestSufficientTeam(string[] req_skills, IList<IList<string>> people) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] SmallestSufficientTeam(string[] req_skills, IList<IList<string>> people) { }
+    }
 }

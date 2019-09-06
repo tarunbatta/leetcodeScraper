@@ -47,5 +47,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution80
 {
-public class Solution {    public int RemoveDuplicates(int[] nums) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int RemoveDuplicates(int[] nums) { }
+    }
 }

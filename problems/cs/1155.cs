@@ -62,5 +62,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1155
 {
-public class Solution {    public int NumRollsToTarget(int d, int f, int target) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int NumRollsToTarget(int d, int f, int target) { }
+    }
 }

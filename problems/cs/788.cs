@@ -28,5 +28,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution788
 {
-public class Solution {    public int RotatedDigits(int N) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int RotatedDigits(int N) { }
+    }
 }

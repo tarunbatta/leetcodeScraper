@@ -19,5 +19,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution357
 {
-public class Solution {    public int CountNumbersWithUniqueDigits(int n) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int CountNumbersWithUniqueDigits(int n) { }
+    }
 }

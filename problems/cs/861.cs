@@ -40,5 +40,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution861
 {
-public class Solution {    public int MatrixScore(int[][] A) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MatrixScore(int[][] A) { }
+    }
 }

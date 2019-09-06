@@ -78,5 +78,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution529
 {
-public class Solution {    public char[][] UpdateBoard(char[][] board, int[] click) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public char[][] UpdateBoard(char[][] board, int[] click) { }
+    }
 }

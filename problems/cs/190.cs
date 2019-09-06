@@ -41,5 +41,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution190
 {
-public class Solution {    public uint reverseBits(uint n) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public uint reverseBits(uint n) { }
+    }
 }

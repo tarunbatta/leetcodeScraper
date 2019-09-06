@@ -39,5 +39,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution6
 {
-public class Solution {    public string Convert(string s, int numRows) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string Convert(string s, int numRows) { }
+    }
 }

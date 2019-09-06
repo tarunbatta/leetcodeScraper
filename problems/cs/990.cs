@@ -66,5 +66,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution990
 {
-public class Solution {    public bool EquationsPossible(string[] equations) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool EquationsPossible(string[] equations) { }
+    }
 }

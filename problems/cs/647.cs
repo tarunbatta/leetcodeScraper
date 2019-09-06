@@ -39,5 +39,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution647
 {
-public class Solution {    public int CountSubstrings(string s) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int CountSubstrings(string s) { }
+    }
 }

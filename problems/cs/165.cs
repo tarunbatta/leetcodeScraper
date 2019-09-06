@@ -48,5 +48,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution165
 {
-public class Solution {    public int CompareVersion(string version1, string version2) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int CompareVersion(string version1, string version2) { }
+    }
 }

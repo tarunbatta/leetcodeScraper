@@ -49,5 +49,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution845
 {
-public class Solution {    public int LongestMountain(int[] A) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int LongestMountain(int[] A) { }
+    }
 }

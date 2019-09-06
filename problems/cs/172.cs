@@ -25,5 +25,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution172
 {
-public class Solution {    public int TrailingZeroes(int n) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int TrailingZeroes(int n) { }
+    }
 }

@@ -37,5 +37,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1170
 {
-public class Solution {    public int[] NumSmallerByFrequency(string[] queries, string[] words) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] NumSmallerByFrequency(string[] queries, string[] words) { }
+    }
 }

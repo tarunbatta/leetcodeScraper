@@ -28,5 +28,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution218
 {
-public class Solution {    public IList<IList<int>> GetSkyline(int[][] buildings) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<IList<int>> GetSkyline(int[][] buildings) { }
+    }
 }

@@ -25,5 +25,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution34
 {
-public class Solution {    public int[] SearchRange(int[] nums, int target) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] SearchRange(int[] nums, int target) { }
+    }
 }

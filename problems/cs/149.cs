@@ -42,5 +42,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution149
 {
-public class Solution {    public int MaxPoints(int[][] points) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MaxPoints(int[][] points) { }
+    }
 }

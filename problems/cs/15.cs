@@ -25,5 +25,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution15
 {
-public class Solution {    public IList<IList<int>> ThreeSum(int[] nums) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<IList<int>> ThreeSum(int[] nums) { }
+    }
 }

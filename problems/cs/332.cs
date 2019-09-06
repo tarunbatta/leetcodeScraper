@@ -32,5 +32,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution332
 {
-public class Solution {    public IList<string> FindItinerary(IList<IList<string>> tickets) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<string> FindItinerary(IList<IList<string>> tickets) { }
+    }
 }

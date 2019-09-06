@@ -40,5 +40,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution89
 {
-public class Solution {    public IList<int> GrayCode(int n) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<int> GrayCode(int n) { }
+    }
 }

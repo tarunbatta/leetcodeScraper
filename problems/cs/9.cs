@@ -35,5 +35,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution9
 {
-public class Solution {    public bool IsPalindrome(int x) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool IsPalindrome(int x) { }
+    }
 }

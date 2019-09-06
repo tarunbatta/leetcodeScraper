@@ -31,5 +31,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution771
 {
-public class Solution {    public int NumJewelsInStones(string J, string S) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int NumJewelsInStones(string J, string S) { }
+    }
 }

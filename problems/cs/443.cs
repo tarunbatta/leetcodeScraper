@@ -71,5 +71,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution443
 {
-public class Solution {    public int Compress(char[] chars) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int Compress(char[] chars) { }
+    }
 }

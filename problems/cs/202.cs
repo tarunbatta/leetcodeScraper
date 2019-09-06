@@ -23,5 +23,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution202
 {
-public class Solution {    public bool IsHappy(int n) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool IsHappy(int n) { }
+    }
 }

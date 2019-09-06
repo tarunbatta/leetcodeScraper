@@ -33,5 +33,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution746
 {
-public class Solution {    public int MinCostClimbingStairs(int[] cost) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MinCostClimbingStairs(int[] cost) { }
+    }
 }

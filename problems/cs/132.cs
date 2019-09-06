@@ -19,5 +19,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution132
 {
-public class Solution {    public int MinCut(string s) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MinCut(string s) { }
+    }
 }

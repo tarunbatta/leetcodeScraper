@@ -45,5 +45,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1154
 {
-public class Solution {    public int DayOfYear(string date) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int DayOfYear(string date) { }
+    }
 }

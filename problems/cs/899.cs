@@ -45,5 +45,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution899
 {
-public class Solution {    public string OrderlyQueue(string S, int K) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string OrderlyQueue(string S, int K) { }
+    }
 }

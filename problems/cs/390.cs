@@ -28,5 +28,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution390
 {
-public class Solution {    public int LastRemaining(int n) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int LastRemaining(int n) { }
+    }
 }

@@ -26,5 +26,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution367
 {
-public class Solution {    public bool IsPerfectSquare(int num) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool IsPerfectSquare(int num) { }
+    }
 }

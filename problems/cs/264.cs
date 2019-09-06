@@ -25,5 +25,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution264
 {
-public class Solution {    public int NthUglyNumber(int n) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int NthUglyNumber(int n) { }
+    }
 }

@@ -45,5 +45,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution403
 {
-public class Solution {    public bool CanCross(int[] stones) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool CanCross(int[] stones) { }
+    }
 }

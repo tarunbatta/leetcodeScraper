@@ -34,5 +34,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution224
 {
-public class Solution {    public int Calculate(string s) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int Calculate(string s) { }
+    }
 }

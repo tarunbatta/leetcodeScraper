@@ -45,5 +45,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution884
 {
-public class Solution {    public string[] UncommonFromSentences(string A, string B) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string[] UncommonFromSentences(string A, string B) { }
+    }
 }

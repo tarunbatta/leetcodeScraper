@@ -49,5 +49,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution310
 {
-public class Solution {    public IList<int> FindMinHeightTrees(int n, int[][] edges) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<int> FindMinHeightTrees(int n, int[][] edges) { }
+    }
 }

@@ -46,5 +46,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution973
 {
-public class Solution {    public int[][] KClosest(int[][] points, int K) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[][] KClosest(int[][] points, int K) { }
+    }
 }

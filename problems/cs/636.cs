@@ -50,5 +50,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution636
 {
-public class Solution {    public int[] ExclusiveTime(int n, IList<string> logs) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] ExclusiveTime(int n, IList<string> logs) { }
+    }
 }

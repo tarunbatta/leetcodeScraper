@@ -39,5 +39,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution502
 {
-public class Solution {    public int FindMaximizedCapital(int k, int W, int[] Profits, int[] Capital) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int FindMaximizedCapital(int k, int W, int[] Profits, int[] Capital) { }
+    }
 }

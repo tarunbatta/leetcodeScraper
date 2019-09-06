@@ -37,5 +37,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution832
 {
-public class Solution {    public int[][] FlipAndInvertImage(int[][] A) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[][] FlipAndInvertImage(int[][] A) { }
+    }
 }

@@ -62,5 +62,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution842
 {
-public class Solution {    public IList<int> SplitIntoFibonacci(string S) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<int> SplitIntoFibonacci(string S) { }
+    }
 }

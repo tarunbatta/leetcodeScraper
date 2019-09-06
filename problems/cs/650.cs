@@ -41,5 +41,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution650
 {
-public class Solution {    public int MinSteps(int n) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MinSteps(int n) { }
+    }
 }

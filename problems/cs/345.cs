@@ -29,5 +29,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution345
 {
-public class Solution {    public string ReverseVowels(string s) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string ReverseVowels(string s) { }
+    }
 }

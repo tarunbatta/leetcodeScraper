@@ -70,5 +70,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution68
 {
-public class Solution {    public IList<string> FullJustify(string[] words, int maxWidth) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<string> FullJustify(string[] words, int maxWidth) { }
+    }
 }

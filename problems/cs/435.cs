@@ -45,5 +45,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution435
 {
-public class Solution {    public int EraseOverlapIntervals(int[][] intervals) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int EraseOverlapIntervals(int[][] intervals) { }
+    }
 }

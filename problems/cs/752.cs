@@ -56,5 +56,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution752
 {
-public class Solution {    public int OpenLock(string[] deadends, string target) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int OpenLock(string[] deadends, string target) { }
+    }
 }

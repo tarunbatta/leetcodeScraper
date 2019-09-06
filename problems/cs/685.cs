@@ -40,5 +40,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution685
 {
-public class Solution {    public int[] FindRedundantDirectedConnection(int[][] edges) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] FindRedundantDirectedConnection(int[][] edges) { }
+    }
 }

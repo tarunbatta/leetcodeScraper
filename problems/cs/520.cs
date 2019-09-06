@@ -40,5 +40,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution520
 {
-public class Solution {    public bool DetectCapitalUse(string word) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool DetectCapitalUse(string word) { }
+    }
 }

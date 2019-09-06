@@ -51,5 +51,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution857
 {
-public class Solution {    public double MincostToHireWorkers(int[] quality, int[] wage, int K) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public double MincostToHireWorkers(int[] quality, int[] wage, int K) { }
+    }
 }

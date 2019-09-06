@@ -19,5 +19,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution42
 {
-public class Solution {    public int Trap(int[] height) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int Trap(int[] height) { }
+    }
 }

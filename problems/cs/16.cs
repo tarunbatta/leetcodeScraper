@@ -17,5 +17,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution16
 {
-public class Solution {    public int ThreeSumClosest(int[] nums, int target) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int ThreeSumClosest(int[] nums, int target) { }
+    }
 }

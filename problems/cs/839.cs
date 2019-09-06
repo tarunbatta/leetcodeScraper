@@ -32,5 +32,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution839
 {
-public class Solution {    public int NumSimilarGroups(string[] A) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int NumSimilarGroups(string[] A) { }
+    }
 }

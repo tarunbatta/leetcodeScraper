@@ -46,5 +46,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution947
 {
-public class Solution {    public int RemoveStones(int[][] stones) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int RemoveStones(int[][] stones) { }
+    }
 }

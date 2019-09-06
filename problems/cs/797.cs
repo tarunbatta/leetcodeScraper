@@ -30,5 +30,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution797
 {
-public class Solution {    public IList<IList<int>> AllPathsSourceTarget(int[][] graph) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<IList<int>> AllPathsSourceTarget(int[][] graph) { }
+    }
 }

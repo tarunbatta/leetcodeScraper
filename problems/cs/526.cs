@@ -49,5 +49,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution526
 {
-public class Solution {    public int CountArrangement(int N) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int CountArrangement(int N) { }
+    }
 }

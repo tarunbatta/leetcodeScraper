@@ -48,5 +48,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution862
 {
-public class Solution {    public int ShortestSubarray(int[] A, int K) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int ShortestSubarray(int[] A, int K) { }
+    }
 }

@@ -55,5 +55,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution878
 {
-public class Solution {    public int NthMagicalNumber(int N, int A, int B) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int NthMagicalNumber(int N, int A, int B) { }
+    }
 }

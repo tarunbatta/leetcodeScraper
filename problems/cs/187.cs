@@ -19,5 +19,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution187
 {
-public class Solution {    public IList<string> FindRepeatedDnaSequences(string s) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public IList<string> FindRepeatedDnaSequences(string s) { }
+    }
 }

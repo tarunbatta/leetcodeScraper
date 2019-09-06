@@ -52,5 +52,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1042
 {
-public class Solution {    public int[] GardenNoAdj(int N, int[][] paths) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] GardenNoAdj(int N, int[][] paths) { }
+    }
 }

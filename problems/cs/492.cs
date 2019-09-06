@@ -30,5 +30,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution492
 {
-public class Solution {    public int[] ConstructRectangle(int area) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] ConstructRectangle(int area) { }
+    }
 }

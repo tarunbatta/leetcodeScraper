@@ -43,5 +43,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1004
 {
-public class Solution {    public int LongestOnes(int[] A, int K) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int LongestOnes(int[] A, int K) { }
+    }
 }

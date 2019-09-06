@@ -36,5 +36,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution290
 {
-public class Solution {    public bool WordPattern(string pattern, string str) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public bool WordPattern(string pattern, string str) { }
+    }
 }

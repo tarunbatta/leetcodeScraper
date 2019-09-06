@@ -35,5 +35,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution3
 {
-public class Solution {    public int LengthOfLongestSubstring(string s) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int LengthOfLongestSubstring(string s) { }
+    }
 }

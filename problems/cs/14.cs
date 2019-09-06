@@ -30,5 +30,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution14
 {
-public class Solution {    public string LongestCommonPrefix(string[] strs) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public string LongestCommonPrefix(string[] strs) { }
+    }
 }

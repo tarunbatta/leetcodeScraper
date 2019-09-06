@@ -44,5 +44,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution598
 {
-public class Solution {    public int MaxCount(int m, int n, int[][] ops) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int MaxCount(int m, int n, int[][] ops) { }
+    }
 }

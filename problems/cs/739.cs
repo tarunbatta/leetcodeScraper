@@ -18,5 +18,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution739
 {
-public class Solution {    public int[] DailyTemperatures(int[] T) {            }
+    public class Solution
+    {
+        public void Init() { }
+
+        public int[] DailyTemperatures(int[] T) { }
+    }
 }
