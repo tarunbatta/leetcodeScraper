@@ -7,6 +7,7 @@
     const cheerio = require('cheerio');
     const fs = require('fs');
     const http = require('http');
+    const sanitizeHtml = require('sanitize-html');
 
     const config = require('./config');
     const helper = require('./helper');
@@ -119,7 +120,7 @@
                 problem.question = $('div.question-content__JfgR > div').html();
 
                 if (problem.question != null && problem.question.length > 0) {
-                    problem.question = problem.question.replace(/<[^>]+>/g, '');
+                    problem.question = sanitizeHtml(problem.question, { allowedTags: [], allowedAttributes: {} });
                 }
 
                 $('div.CodeMirror-code div').each(function (index, element) {
