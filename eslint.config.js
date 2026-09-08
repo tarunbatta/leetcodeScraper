@@ -48,6 +48,7 @@ module.exports = [
       semi: "off",
       "space-before-function-paren": "off",
       "no-undef": "warn",
+      "no-useless-assignment": "off",
     },
   },
 ];
